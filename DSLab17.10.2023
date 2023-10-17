@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std ;
+const int SIZE = 100;
 
-
-#define size 10
-int arr[size], top = -1;
+#define SIZE 10
+int arr[SIZE], top = -1;
 
 
 
@@ -32,7 +32,7 @@ bool isempty()
  void pop ()
  {
   if(isempty())
-    cout<<"Stack is empty !"<<endl:
+    cout<<"Stack is empty !"<<endl;
    else
    top-- ;
  }
